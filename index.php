@@ -1,5 +1,10 @@
 <?php
 
-echo "Hello world!";
+echo helloWorld();
+
+function helloWorld() 
+{
+	return 'Hello World!';
+}
 
 ?>
